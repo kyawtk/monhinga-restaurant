@@ -15,7 +15,7 @@ Simple and effective Design for a small monhinga Shop
   
 
 
-## [DEMO](https://metaverse-landing-page-pied.vercel.app/)
+## [DEMO](https://monhinga-restaurant-kduccph4d-kyawtk.vercel.app/)
 
 
 <img src="/public/ss.png" alt="Alt text" title=" title">
