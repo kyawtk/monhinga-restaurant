@@ -17,7 +17,7 @@ const Page = () => {
               return (
                 <div key={salad.name} className="flex flex-col gap-4 my-5">
                   <h3 className="flex justify-between font-bold text-xl tracking-tighte">
-                    {salad.name} <span >{salad.price}$</span>
+                    {salad.name} <span>{salad.price}$</span>
                   </h3>
                   <hr />
                   <p className="text-lg font-semibold">{salad.description}</p>
@@ -34,10 +34,12 @@ const Page = () => {
               return (
                 <div key={monhinga.name} className="flex flex-col gap-4 my-5">
                   <h3 className="flex justify-between font-bold text-xl tracking-tighte">
-                    {monhinga.name} <span >{monhinga.price}$</span>
+                    {monhinga.name} <span>{monhinga.price}$</span>
                   </h3>
                   <hr />
-                  <p className="text-lg font-semibold">{monhinga.description}</p>
+                  <p className="text-lg font-semibold">
+                    {monhinga.description}
+                  </p>
                 </div>
               );
             })}
@@ -51,7 +53,7 @@ const Page = () => {
               return (
                 <div key={addon.name} className="flex flex-col gap-4 my-5">
                   <h3 className="flex justify-between font-bold text-xl tracking-tighte">
-                    {addon.name} <span >{addon.price}$</span>
+                    {addon.name} <span>{addon.price}$</span>
                   </h3>
                   <hr />
                   <p className="text-lg font-semibold">{addon.description}</p>
@@ -68,7 +70,7 @@ const Page = () => {
               return (
                 <div key={drink.name} className="flex flex-col gap-4 my-5">
                   <h3 className="flex justify-between font-bold text-xl tracking-tighte">
-                    {drink.name} <span >{drink.price}$</span>
+                    {drink.name} <span>{drink.price}$</span>
                   </h3>
                   <hr />
                   <p className="text-lg font-semibold">{drink.description}</p>

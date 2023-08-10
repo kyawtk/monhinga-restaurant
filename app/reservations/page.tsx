@@ -3,9 +3,18 @@ import React from "react";
 import { useFormik } from "formik";
 import { times } from "../../constants";
 import { error } from "console";
+interface FormValues {
+  name:string,
+  email:string,
+  size:number,
+  number:string,
+  specialRequest:string,
+  date:string,
+  time:string
+}
 const Reservations = () => {
-  const validate = (values) => {
-    const errors = {};
+  const validate = (values: FormValues) => {
+    const errors:any = {};
     if (!values.name) {
       errors.name = "Name Required";
     }
@@ -39,7 +48,7 @@ const Reservations = () => {
       name: "",
       email: "",
       number: "",
-      specialRequest: "",
+      specialRequest: "-",
       date: "",
       size: 1,
       time: "9:00 AM",
@@ -51,7 +60,7 @@ const Reservations = () => {
   });
 
   return (
-    <section className="inneWidth bg-white pb-20">
+    <section className="innerWidth bg-white pb-20">
       <div className="flex flex-col w-[90%] sm:w-[80%] md:w-[70%] lg:w-[50%] mx-auto items-center justify-center ">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl my-20">
           {" "}

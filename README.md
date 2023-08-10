@@ -1,4 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Monhinga-Restaurant
+
+Simple and effective Design for a small monhinga Shop
+
+## Features
+
+* Simple,minimalist Design
+* Suitable for small business
+* Visually pleasing
+
+## Learning Takeaways
+
+* Nextjs routing 
+* Tailwind Css reusability
+  
+
+
+## [DEMO](https://metaverse-landing-page-pied.vercel.app/)
+
+
+<img src="/public/ss.png" alt="Alt text" title=" title">
 
 ## Getting Started
 

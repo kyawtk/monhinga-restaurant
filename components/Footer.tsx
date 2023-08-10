@@ -3,7 +3,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-  <footer className='flex flex-col items-center justify-center gap-10 bg-white pb-20 rounded-bl-md rounded-br-md'>
+  <footer className='innerWidth flex flex-col items-center justify-center gap-10 bg-white pb-20 rounded-bl-md rounded-br-md'>
     <div className="uppercase flex flex-wrap gap-5  mt-[200px] text-2xl justify-center ">
         <Link className="underline decoration-slate-500" href="/menu">
           Menu

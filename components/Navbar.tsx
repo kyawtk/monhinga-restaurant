@@ -7,7 +7,7 @@ Link;
 const Navbar = () => {
   const [navOpen, setNavOpen] = useState(false);
   return (
-    <header className="bg-white py-5 rounded-tl-md rounded-tr-md relative ">
+    <header className="bg-white py-5 rounded-tl-md rounded-tr-md relative innerWidth ">
       <nav className="px-3 sm:px-10 md:px-20 flex justify-between items-center">
         <div className="uppercase font-semibold tracking-tighter md:flex gap-10 hidden ">
           <Link href="/">Home</Link>
