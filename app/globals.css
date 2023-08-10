@@ -1,27 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+form > label{
+  @apply tracking-tighter font-semibold text-xl flex flex-col mt-6 mb-3
+
+  
+}
+ input{
+  @apply border rounded-sm border-gray-500 px-3 py-4 tracking-tighter text-lg mt-3
+}
+.innerWidth{
+  @apply w-full lg:max-w-[1440px] mx-auto;
+
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.form-error{
+  @apply bg-red-200 text-red-700 font-semibold text-sm rounded-md p-2 ;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
